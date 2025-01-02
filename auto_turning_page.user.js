@@ -6,6 +6,11 @@
 // @version     1.0
 // @author      AwesomeVodka
 // @description Script to add auto turning page function to LANraragi Reader. 
+// @license     MIT
+// @homepageURL https://github.com/AwesomeVodka/LANraragi-Auto-turrning-page
+// @supportURL  https://github.com/AwesomeVodka/LANraragi-Auto-turrning-page/issues
+// @downloadURL https://awesomevodka.github.io/LANraragi-Auto-turrning-page/auto_turning_page.user.js
+// @updateURL   https://awesomevodka.github.io/LANraragi-Auto-turrning-page/auto_turning_page.user.js
 // @run-at      document-idle
 // ==/UserScript==
 
