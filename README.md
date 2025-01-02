@@ -24,13 +24,17 @@ I will update the content once testing with other extensions and applications is
 
 ### Installing
 
+#### Quick Install
+
+Click this URL : https://awesomevodka.github.io/LANraragi-Auto-turrning-page/auto_turning_page.user.js
+
 #### Tempermonkey
 
 1. Go to Dashboard
 2. Click 'Utilities' tab
 3. Enter the following URL in the text field of the 'Import from URL' item and click the 'Install' button.
 ```
-URL
+https://awesomevodka.github.io/LANraragi-Auto-turrning-page/auto_turning_page.user.js
 ```
 
 ## Usage <a name = "usage"></a>
