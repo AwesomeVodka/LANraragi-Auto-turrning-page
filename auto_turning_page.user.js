@@ -3,7 +3,7 @@
 // @namespace   https://github.com/AwesomeVodka/LANraragi-Auto-turrning-page
 // @include     *:*/reader?id=*
 // @grant       unsafeWindow
-// @version     1.0
+// @version     0.1.1
 // @author      AwesomeVodka
 // @description Script to add auto turning page function to LANraragi Reader. 
 // @license     MIT
@@ -90,6 +90,10 @@
                     Reader.handleFullScreen(true);
                 }
 
+                atpRunBtnElArr.forEach(function($el) {
+                    $el.className = ATP_STOP_BTN_ICON_CLASSNAME;
+                });
+
                 atpInst = setInterval(function() {
                     if(Reader.maxPage === Reader.currentPage) {
                         methods.atpStop();
@@ -103,6 +107,10 @@
                     document.exitFullscreen();
                 }
 
+                atpRunBtnElArr.forEach(function($el) {
+                    $el.className = ATP_START_BTN_ICON_CLASSNAME;
+                });
+
                 clearInterval(atpInst);
             }
         }
@@ -114,16 +122,8 @@
                 if(Reader.currentPageLoaded) {
                     if(!atpRun) {
                         methods.atpStart();
-
-                        atpRunBtnElArr.forEach(function($el) {
-                            $el.className = ATP_STOP_BTN_ICON_CLASSNAME;
-                        });
                     } else if(atpRun) {
                         methods.atpStop();
-
-                        atpRunBtnElArr.forEach(function($el) {
-                            $el.className = ATP_START_BTN_ICON_CLASSNAME;
-                        });
                     }
 
                     atpRun = !atpRun
