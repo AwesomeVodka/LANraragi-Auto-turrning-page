@@ -272,6 +272,8 @@
             $wakeLockVideoEl.loop = true;
             $wakeLockVideoEl.muted = true;
             $wakeLockVideoEl.style.display="none";
+
+            document.querySelector("div#i3").append($wakeLockVideoEl);
         
         document.querySelector("div#settingsOverlay").append($siSettingEl);
         document.querySelector("div#settingsOverlay").append($usefsSettingEl);
