@@ -3,7 +3,7 @@
 // @namespace   https://github.com/AwesomeVodka/LANraragi-Auto-turrning-page
 // @include     *:*/reader?id=*
 // @grant       unsafeWindow
-// @version     0.1.1
+// @version     0.1.2
 // @author      AwesomeVodka
 // @description Script to add auto turning page function to LANraragi Reader. 
 // @license     MIT
